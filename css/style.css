@@ -8,13 +8,13 @@
   width: 100%;
   height: 300px;
   object-fit: cover;
-  border-radius: 12px
+  border-radius: 12px;
 }
 
 .site-footer{
   background-color: #1B4332;
   color: white;
-  text-aligh: center;
+  text-align: center;
   padding: 30px;
 }
 
