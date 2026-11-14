@@ -15,9 +15,45 @@
 }
 
 .site-footer{
-  background-color: #1B4332;
+  background-color: #1A1A1A;
   color: white;
   text-align: center;
   padding: 30px;
 }
 
+.hero {
+	position: relative;
+}
+
+.hero-img {
+	display: block;
+	filter: brightness(60%);
+}
+
+.hero-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: white;
+	text-align: center;
+	width: 90%;
+	transform: translate(-50%, -50%);
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.site-footer {
+	margin-top: auto;
+}
+
+.main-nav {
+	background-color: #1A1A1A;
+}
+
+.main-nav .nav-link.active {
+	color: #E63946;
+}
